@@ -1,4 +1,4 @@
-24recipes:
+recipes:
   tailscale0:
     name: Tailscale0
     description: Installs Tailscale and connects to the tailnet using the provided auth key
@@ -9,6 +9,7 @@
           supported_arch:
             - x86_64
             - arm64
+          minimum_ram_gb: 2
           minimum_ram_gb: 24
           options:
             - name: auth_key
