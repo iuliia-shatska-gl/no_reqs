@@ -1,5 +1,5 @@
 recipes:
-  tailscale0:
+  tailscale:
     name: Tailscale0
     description: Installs Tailscale and connects to the tailnet using the provided auth key
     versions:
