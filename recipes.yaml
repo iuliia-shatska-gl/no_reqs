@@ -1,6 +1,6 @@
 recipes:
   no_reqs:
-    name: Tailscale0
+    name: no_reqs
     description: Installs Tailscale and connects to the tailnet using the provided auth key
     versions:
       v1.0:
